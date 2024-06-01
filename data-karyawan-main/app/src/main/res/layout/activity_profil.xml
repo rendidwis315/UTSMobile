@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#E0F7FA"
+        android:text="PROFIL SAYA"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="16dp" />
+
+    <!-- NIP -->
+    <EditText
+        android:id="@+id/nip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="NIP :"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+
+    <!-- Nama -->
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="NAMA :"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- Jenis Kelamin -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="JENIS KELAMIN"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- Tanggal Lahir -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="TANGGAL LAHIR"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- Agama -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="AGAMA"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- No. Tlp -->
+    <TextView
+        android:id="@+id/tv_no_tlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="NO.TLP"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- Alamat -->
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="ALAMAT"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+    <!-- Kota -->
+    <TextView
+        android:id="@+id/tv_kota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="KOTA"
+        android:textSize="16sp"
+        android:background="@drawable/border_bottom" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppData Karyawan</string>
+    <string name="nama_karyawan">Nama Karyawan</string>
+    <string name="rentang_tanggal">Rentang tanggal :</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="hadir">Hadir</string>
+    <string name="total_hadir">Total Hadir =</string>
+    <string name="total_sakit">Total Sakit =</string>
+    <string name="total_izin">Total Izin =</string>
+    <string name="presentase_kehadiran">Presentase kehadiran =</string>
+</resources>
